@@ -184,7 +184,7 @@ Comment:<br>
     $(document).ready(function() {
         $('#load_data').click(function() {
             $.ajax({
-                url:"Sacramentorealestatetransactions",
+                url:"Sacramentorealestatetransactions.csv",
                 dataType:"text",
                 success:function(data) {
                     var csv = data.split(/\r?\n|\r/);
